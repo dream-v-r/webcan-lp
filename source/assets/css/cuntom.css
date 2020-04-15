@@ -1,0 +1,41 @@
+.img-fluid_head {
+    width:100px;
+    height:auto;
+}
+
+.btn-danger_top{
+    color: #fff;
+    background-color: #f4ab2b;
+    border-color: #f4ab2b;
+    border-radius: 25px;
+
+}
+
+.btn-primary-top{
+    color: #fff;
+    background-color: #fd4441;
+    border-color: #fd4441;
+    border-radius: 25px;
+
+}
+
+
+.btn-success-top{
+    color: #fff;
+    background-color: #3cb100;
+    border-color: #3cb100;
+    border-radius: 25px;
+
+
+}
+
+.btn-warning-top{
+    color: #fff;
+    background-color: #00a3c4;
+    border-color: #00a3c4;
+    border-radius: 25px;
+
+}
+
+
+

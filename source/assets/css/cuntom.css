@@ -1,5 +1,10 @@
 .img-fluid_head {
-    width:100px;
+     width:100px;
+     height:auto;
+ }
+
+.img-fluid_main {
+    width:400px;
     height:auto;
 }
 
@@ -35,6 +40,20 @@
     border-color: #00a3c4;
     border-radius: 25px;
 
+}
+
+.btn-black-top{
+    color: #fff;
+    background-color: #0f0f0f;
+    border-color: #0f0f0f;
+    border-radius: 25px;
+
+}
+
+.top-left{
+    margin:5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 

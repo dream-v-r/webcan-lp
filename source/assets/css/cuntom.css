@@ -56,5 +56,36 @@
     padding-right: 5px;
 }
 
+.btn-top{
+    margin:5px 5px;
+}
+
+.v-top{
+    vertical-align: top;
+}
+
+.box{
+    position: relative;
+    text-align: center;
+    width: 300px;
+    line-height: 80px;
+    border: 2px solid #F6C7C1;
+    border-radius: 10px;
+}
+
+.box:after{
+    position: absolute;
+    left:1px;
+    top: 1px;
+    content: '';
+    border-top:10px solid #F6C7C1;
+    border-left:10px solid #F6C7C1;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+
 
 

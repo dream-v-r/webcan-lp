@@ -1454,7 +1454,7 @@ spUtils.$document.ready(function () {
   //
 
   var goToPage = function goToPage(content) {
-    var position = spUtils.$window.width() < breakPoint ? '-100%' : '-50%';
+    var position = spUtils.$window.width() < breakPoint ? '-100%' : '-100%';
     baseContent.css({
       left: position
     });

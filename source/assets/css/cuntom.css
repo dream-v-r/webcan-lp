@@ -143,21 +143,24 @@
 }
 
 .text-divider::before {
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 .text-divider::after {
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .sample{
     position:relative;
-    background-color: #fafafa;
+    background-color: #fff;
     width:300px;
+    height: 300px;
     margin:0 auto;
     border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 8px gray;
 }
 
-.sample::before{
+.sample2{
     position:absolute;
     top: -10%;
     left: 50%;
@@ -165,12 +168,30 @@
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     margin: auto;
-    content:"POINT\A１";
-    white-space: pre;
     text-align: center;
     font-size:1.3em;
     padding:5px 15px;
     color:#fff;
     background-color: #f4ab2b;
+}
+
+.sample3{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid #f4ab2b;
+}
+
+.sample4{
+    position:relative;
+    background-color: #fff;
+    width:100%;
+    height: 300px;
+    margin:0 25px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 8px gray;
 }
 

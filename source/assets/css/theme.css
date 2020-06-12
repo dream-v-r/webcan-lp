@@ -11851,7 +11851,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .sidebar-item .nav-icon {
-  width: 2rem;
+  width: 5rem !important;
 }
 
 @media (min-width: 1200px) {
@@ -13631,11 +13631,11 @@ button.bg-white:focus {
   .w-sm-25 {
     width: 25% !important;
   }
-  .w-sm-50 {
-    width: 50% !important;
+  .w-sm-40 {
+    width: 40% !important;
   }
-  .w-sm-75 {
-    width: 75% !important;
+  .w-sm-60 {
+    width: 60% !important;
   }
   .w-sm-100 {
     width: 100% !important;
